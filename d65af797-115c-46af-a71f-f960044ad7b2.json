@@ -3,6 +3,15 @@
   "url": "https://ctet.nic.in/apply-for-ctet-july2023",
   "urlPattern": "^https?://examinationservices.nic.in.*$",
   "config": {
+    "AppNum": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[name*='Regno']",
+          "dataKey": "User Id"
+        }
+      }
+    },
     "CName": {
       "function": {
         "name": "bySelectorAndKey",
