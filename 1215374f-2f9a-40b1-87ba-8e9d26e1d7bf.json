@@ -1,0 +1,114 @@
+{
+  "uid": "1215374f-2f9a-40b1-87ba-8e9d26e1d7bf",
+  "urlPattern": "^https?:\\/\\/ibpsonline\\.ibps\\.in\\/irdaiamfeb23\\/basic_details\\.php.*$",
+  "config": {
+    "fullname": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[name='fullname']",
+          "dataKey": "Full Name"
+        }
+      }
+    },
+    "cfullname": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[name='cfullname']",
+          "dataKey": "Full Name"
+        }
+      }
+    },
+    "middlename": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[name='middlename']",
+          "dataKey": "Middle Name"
+        }
+      }
+    },
+    "cmiddlename": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[name='cmiddlename']",
+          "dataKey": "Middle Name"
+        }
+      }
+    },
+    "lastname": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[name='lastname']",
+          "dataKey": "Last Name"
+        }
+      }
+    },
+    "clastname": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[name='clastname']",
+          "dataKey": "Last Name"
+        }
+      }
+    },
+    "txtmobile": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[name='txtmobile']",
+          "dataKey": "Mobile"
+        }
+      }
+    },
+    "txtcmobile": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[name='txtcmobile']",
+          "dataKey": "Mobile"
+        }
+      }
+    },
+    "txtaltphone": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[name='txtaltphone']",
+          "dataKey": "Alternative Mobile"
+        }
+      }
+    },
+    "complete_email": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[name=\"textcemail\"]",
+          "dataKey": "Email"
+        }
+      }
+    }
+  },
+  "title": "IRDAI Assistant Manager Recruitment 2021",
+  "url": "https://ibpsonline.ibps.in/irdaiamfeb23/",
+  "postDate": "2021-10-23",
+  "lastDate": "2021-11-12",
+  "sourcePriorityList": [
+    "f13cdb7f-df6a-44ff-b07d-128348486b5c",
+    "d24fe3a5-b7da-4cda-bee4-f7c232b423a7",
+    "d65af797-115c-46af-a71f-f960044ad7b2",
+    "83bfb87e-7d92-48ed-b935-bf2f57f0c4e9",
+    "20956b60-f157-4a08-ab0a-69e0fa73e3af",
+    "9020cbaa-a9a7-42f0-8de7-cbdcaf02897b",
+    "01d399a2-a762-434e-b00e-5df4c2fa8adb",
+    "50d3349c-e3cc-468a-a259-2aa790217ce5",
+    "1215374f-2f9a-40b1-87ba-8e9d26e1d7bf",
+    "f568a89e-9a19-4624-af03-b50d8c7b05ef",
+    "d42ddb5c-6aa8-4b2c-b8de-bfae8068ee23",
+    "862320ad-eccb-4cd3-8f71-0ffdc2299771"
+  ]
+}

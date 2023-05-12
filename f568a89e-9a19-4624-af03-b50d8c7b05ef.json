@@ -1,0 +1,141 @@
+{
+  "uid": "f568a89e-9a19-4624-af03-b50d8c7b05ef",
+  "url": "https://www.up-rera.in/applicationform/",
+  "urlPattern": "^https?:\\/\\/www\\.up-rera\\.in.*$",
+  "config": {
+    "name": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id*='candidatename']",
+          "dataKey": "Full Name"
+        }
+      }
+    },
+    "fatherName": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id*='fathername']",
+          "dataKey": "Father's Name"
+        }
+      }
+    },
+    "dob": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id*='dob']",
+          "dataKey": "Date of Birth"
+        }
+      }
+    },
+    "age": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id*='age']",
+          "dataKey": "Age"
+        }
+      }
+    },
+    "gender": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "select[id*='sex']",
+          "dataKey": "Gender"
+        }
+      }
+    },
+    "phone": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id*='mobile']",
+          "dataKey": "Mobile"
+        }
+      }
+    },
+    "email": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id*='email']",
+          "dataKey": "Email"
+        }
+      }
+    },
+    "address": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "textarea[id*='address']",
+          "dataKey": "Address"
+        }
+      }
+    },
+    "postOffice": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id*='postoffice']",
+          "dataKey": "Post Office"
+        }
+      }
+    },
+    "policeStation": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id*='thana']",
+          "dataKey": "Police Station"
+        }
+      }
+    },
+    "district": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "select[id*='district']",
+          "dataKey": "District"
+        }
+      }
+    },
+    "state": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "select[id*='state']",
+          "dataKey": "State"
+        }
+      }
+    },
+    "pincode": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id*='pincode']",
+          "dataKey": "Pincode"
+        }
+      }
+    }
+  },
+  "title": "UP RERA",
+  "postDate": "2023-05-06",
+  "lastDate": "2023-05-11",
+  "sourcePriorityList": [
+    "f13cdb7f-df6a-44ff-b07d-128348486b5c",
+    "d24fe3a5-b7da-4cda-bee4-f7c232b423a7",
+    "d65af797-115c-46af-a71f-f960044ad7b2",
+    "83bfb87e-7d92-48ed-b935-bf2f57f0c4e9",
+    "20956b60-f157-4a08-ab0a-69e0fa73e3af",
+    "9020cbaa-a9a7-42f0-8de7-cbdcaf02897b",
+    "01d399a2-a762-434e-b00e-5df4c2fa8adb",
+    "50d3349c-e3cc-468a-a259-2aa790217ce5",
+    "1215374f-2f9a-40b1-87ba-8e9d26e1d7bf",
+    "f568a89e-9a19-4624-af03-b50d8c7b05ef",
+    "d42ddb5c-6aa8-4b2c-b8de-bfae8068ee23",
+    "862320ad-eccb-4cd3-8f71-0ffdc2299771"
+  ]
+}

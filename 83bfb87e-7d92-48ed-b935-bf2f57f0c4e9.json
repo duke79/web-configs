@@ -1,0 +1,169 @@
+{
+  "uid": "83bfb87e-7d92-48ed-b935-bf2f57f0c4e9",
+  "urlPattern": "^https?:\\/\\/upsconline\\.nic\\.in\\/upsc\\/OTRP\\/registration\\.php.*$",
+  "config": {
+    "name": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id='name']",
+          "dataKey": "Full Name"
+        }
+      }
+    },
+    "confirmName": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id='name_ver']",
+          "dataKey": "Full Name"
+        }
+      }
+    },
+    "gender": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "select[id='gender']",
+          "dataKey": "Gender",
+          "valueToDataMap": {
+            "1": "Male",
+            "2": "Female",
+            "3": "Transgender"
+          }
+        }
+      }
+    },
+    "confirmGender": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "select[id='gender']",
+          "dataKey": "Gender",
+          "valueToDataMap": {
+            "1": "Male",
+            "2": "Female",
+            "3": "Transgender"
+          }
+        }
+      }
+    },
+    "dob": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id='dob']",
+          "dataKey": "Date of Birth"
+        }
+      }
+    },
+    "confirmDob": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id='dob_ver']",
+          "dataKey": "Date of Birth"
+        }
+      }
+    },
+    "fatherName": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id='father_name']",
+          "dataKey": "Father's Name"
+        }
+      }
+    },
+    "confirmFatherName": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id='father_name_ver']",
+          "dataKey": "Father's Name"
+        }
+      }
+    },
+    "motherName": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id='mother_name']",
+          "dataKey": "Mother's Name"
+        }
+      }
+    },
+    "confirmMotherName": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id='mother_name_ver']",
+          "dataKey": "Mother's Name"
+        }
+      }
+    },
+    "phone": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id='mobile_num']",
+          "dataKey": "Mobile"
+        }
+      }
+    },
+    "alternatePhone": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id='alt_mobile_num']",
+          "dataKey": "Alternative Mobile"
+        }
+      }
+    },
+    "email": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id='email_id']",
+          "dataKey": "Email"
+        }
+      }
+    },
+    "alternateEmail": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id='alt_email_id']",
+          "dataKey": "Alternate Email"
+        }
+      }
+    },
+    "rollNumber10th": {
+      "function": {
+        "name": "bySelectorAndKey",
+        "args": {
+          "selector": "input[id='class_x_rollno']",
+          "dataKey": "10th Roll No."
+        }
+      }
+    }
+  },
+  "title": "UPSC Online Application for Various Examinations of UPSC",
+  "url": "https://upsconline.nic.in/upsc/OTRP/",
+  "postDate": "2021-10-23",
+  "lastDate": "2021-11-12",
+  "sourcePriorityList": [
+    "f13cdb7f-df6a-44ff-b07d-128348486b5c",
+    "d24fe3a5-b7da-4cda-bee4-f7c232b423a7",
+    "d65af797-115c-46af-a71f-f960044ad7b2",
+    "83bfb87e-7d92-48ed-b935-bf2f57f0c4e9",
+    "20956b60-f157-4a08-ab0a-69e0fa73e3af",
+    "9020cbaa-a9a7-42f0-8de7-cbdcaf02897b",
+    "01d399a2-a762-434e-b00e-5df4c2fa8adb",
+    "50d3349c-e3cc-468a-a259-2aa790217ce5",
+    "1215374f-2f9a-40b1-87ba-8e9d26e1d7bf",
+    "f568a89e-9a19-4624-af03-b50d8c7b05ef",
+    "d42ddb5c-6aa8-4b2c-b8de-bfae8068ee23",
+    "862320ad-eccb-4cd3-8f71-0ffdc2299771"
+  ]
+}
